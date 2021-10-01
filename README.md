@@ -16,3 +16,10 @@ Information about the learning process (if you had to learn a new tool and why);
 The documentation of the interviews; 
 Justification of your choices in the light of the theory (Book, Video Classes, Classes, or other material), and the mission and goals of your company and the needs of your users.
 Pictures, interview notes, sketches, and all artifacts generated through the design process (including the unsuccessful ones) must somehow fit into the narrative of the report. 
+
+IMPORTANT:
+Color scheme: a colour scheme of consisting of black (navbar, footer and font), white (page) and yellow (pictures and banners) seems to fit to our product. This colour scheme can be applied to both prototypes and is meant to give an impression of energy/alertness (yellow) mixed with sophistication (black) to the user. 
+
+
+ 
+ 
