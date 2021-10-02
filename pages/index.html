@@ -8,17 +8,233 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="/css/footer.css">
         <link rel="stylesheet" href="/css/navbar.css">
+        
 
         <style>
             body {
                 background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(226,240,254,1) 0%, rgba(255,247,228,1) 90% );
                 font-family: 'Playfair Display', serif;
             }
-            main {
-                padding: 0 2em 0 2em;
+
+            .Mycontainer {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
             }
+
+            footer {
+            flex-shrink: 0;
+            }
+
+            main {
+            flex: 1 0 auto;
+            }
+
+            .slogan-image {
+                background-image: url("../images/index-1920.jpg");
+                width: 100%;
+                height: 70vh;
+                display: flex;
+                justify-content: space-around;
+                align-content: center;
+            }
+            
+            .slogan-text {
+                align-content: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .slogan-text h1 {
+                background-color: #212121;
+                color: #EDEDED;
+            }
+
+            /* Scroll Icon */
+            .scroll-icon {
+                text-align: center;
+            }
+            .scroll-icon a {
+              bottom: 20px;
+              left: 50%;
+              z-index: 2;
+              display: inline-block;
+              -webkit-transform: translate(0, -50%);
+              transform: translate(0, -50%);
+              color: #fff;
+              letter-spacing: .1em;
+              text-decoration: none;
+              transition: opacity .3s;
+            }
+            .scroll-icon a:hover {
+              opacity: .5;
+            }
+
+            .scroll-icon a span {
+              position: absolute;
+              top: 0;
+              left: 50%;
+              width: 30px;
+              height: 30px;
+              margin-left: -12px;
+              border-left: 1px solid rgb(0, 0, 0);
+              border-bottom: 1px solid rgb(0, 0, 0);
+              -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+              -webkit-animation: sdb07 2s infinite;
+              animation: sdb07 2s infinite;
+              opacity: 0;
+              box-sizing: border-box;
+            }
+
+            .scroll-icon a span:nth-of-type(1) {
+              -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+            }
+            .scroll-icon a span:nth-of-type(2) {
+              top: 16px;
+              -webkit-animation-delay: .15s;
+              animation-delay: .15s;
+            }
+            .scroll-icon a span:nth-of-type(3) {
+              top: 32px;
+              -webkit-animation-delay: .3s;
+              animation-delay: .3s;
+            }
+
+            @-webkit-keyframes sdb07 {
+              0% {
+                opacity: 0;
+              }
+              50% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+              }
+            }
+            @keyframes sdb07 {
+              0% {
+                opacity: 0;
+              }
+              50% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+              }
+            }
+
+            /* Mission statement css*/
+            .mission-container {
+                display:flex;
+                padding-top:50px;
+                padding-bottom:50px;
+                justify-content: space-evenly;
+                align-content: center;
+                margin-bottom: 50px;
+            }
+            .mission-statement {
+                padding: 2em 20px 0px 35px;
+                width:50%;
+            }
+            .mission-text {
+                padding:2em 0px 1em 0px;
+            }
+            .mission-text p {
+                font-size: 1.2em;
+            }
+            .mission-header h1 {
+                font-size: 3em;
+                font-weight: 500;
+            }
+            .mission-btn button {
+                border-radius: 50px;
+                font-size:18px;
+                word-wrap:normal;
+            }
+            .mission-btn {
+                padding:10px 0 10px 0;
+            }
+
+            @media screen and (max-width: 980px) {
+                .mission-container {
+                    flex-direction: column;
+                }
+                .mission-image img {
+                    width:100%;
+                    height:100%;
+                }
+                .mission-statement {
+                    width:100%;
+                }
+            }
+            /* End mission statement css */
+
+            /*Review container css */
+            .review-container {
+                display: flex;
+                padding: 50px 20px 50px 20px;
+                justify-content: space-evenly;
+            }
+
+            .w3-content {
+                margin-left:0px;
+                margin-right:0px;
+                width:400px;
+                max-width:400px;
+                height:200px;
+                max-height: 200px;
+            }
+
+            .checked {
+            color: orange;
+            }
+            
+            @media screen and (max-width: 980px) {
+                .review-container {
+                    flex-direction: column;
+                }
+                .w3-content {
+                    width:100%;
+                    padding-top:20px;
+                }
+            }
+
+            @media screen and (min-width: 540px) and (max-width: 980px) {
+                .review-slogan {
+                    display: flex;
+                    justify-content: center;
+                }
+                .review-container .w3-content {
+                    margin:auto;
+                }
+            }
+            /* End review container css */
+
+            /* Product slide css */
+            .ProductSlides {display:none;}
+            .slideshow-container {
+                padding: 50px 20px 50px 20px;
+            }
+            .slideshow-container .w3-content {
+                max-width: 100%;
+                max-height: 600px;
+                height: 600px;
+                width:100%;
+            }
+            @media screen and (max-width: 980px) {
+                .ProductSlides {
+                    width:100%;
+                }
+            }
+
         </style>
 
     </head>
@@ -45,50 +261,191 @@
                 </a>
             </div>
         </nav>       
+        <div class="Mycontainer">
+            <main>
+                <div class="slogan-image">
+                   <div class="slogan-text">
+                       <h1>Let your chair </h1>
+                       <h1>take care of you.</h1>
+                       <div class="scroll-icon">
+                            <a href="#mission" class="scroll-down"><span></span><span></span><span></span></a>
+                        </div>
+                   </div>
+                </div>
 
-        <main>
+                <div class="mission-container">
+                    <div class="mission-statement" id="mission">
+                        <div class="mission-header">
+                            <h1>Like sitting on clouds</h1>
+                        </div>
+                        <div class="mission-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="mission-btn">
+                            <a href="products.html">
+                                <button type="button" class="btn btn-dark">Explore Products</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mission-image">
+                        <img src="/images/chair.png" width="581px"; height="581px"; >
+                    </div>
+                </div>
 
-        </main>
+                <div class="review-container">
+                    <div class="review-slogan">
+                        <h1>What our customers think</h1>
+                    </div>
+                    <div class="w3-content" style="max-width:400px">
+                        <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
+                            <p><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                            <p>"Maximum Comfort. Easy to use."</p>
+                            <p>- Gilhan Dandin</p>
+                        </div>
+                        <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
+                            <p><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                            <p>"So comfortable you can't believe it."</p>
+                            <p>- Elvis Co</p>
+                        </div>
+                        <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
+                            <p><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                            <p>"Never going back to regular chairs."</p>
+                            <p>- Daniel Collington</p>
+                        </div>
+                        <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
+                            <p><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                            <p>"My back pain is gone. I feel like a new man."</p>
+                            <p>- Sindre Dyrhovden</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slideshow-container">
+                    <div class="w3-content w3-display-container" style="display: flex;justify-content: center;">
+                        <img class="ProductSlides" src="/images/chair.png" width="581px"; height="581px">
+                        <img class="ProductSlides" src="/images/chair2.png" width="581px"; height="581px">
+                        <img class="ProductSlides" src="/images/chair3.png" width="581px"; height="581px">
+                        <img class="ProductSlides" src="/images/chair4.png" width="581px"; height="581px">
+                        <img class="ProductSlides" src="/images/chair5.png" width="581px"; height="581px">
 
-        <footer>
-            <div class="footer-logo">
-                <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-chair-office-stationery-justicon-lineal-color-justicon.png"/>
-                <a href="index.html">
-                    HealthyChair
-                </a>
-            </div>
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>  
+                </div>
             
-            <div class="footer-links">
-                <a href="about.html">
-                    About
-                </a>
-                <a href="products.html">
-                    Products
-                </a>
-                <a href="team.html">
-                    Team
-                </a>
-                <a href="contact.html">
-                    Contact
-                </a>
-                <a href="contact.html">
-                    Cookie Policy
-                </a>
-                <a href="contact.html">
-                    Distributor Contact
-                </a>
-                <div class="footer-social">
-                    <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+            </main>
+
+            <footer>
+                <div class="footer-logo">
+                    <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-chair-office-stationery-justicon-lineal-color-justicon.png"/>
+                    <a href="index.html">
+                        HealthyChair
                     </a>
                 </div>
-            </div>
-        </footer>
+                
+                <div class="footer-links">
+                    <a href="about.html">
+                        About
+                    </a>
+                    <a href="products.html">
+                        Products
+                    </a>
+                    <a href="team.html">
+                        Team
+                    </a>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                    <a href="contact.html">
+                        Cookie Policy
+                    </a>
+                    <a href="contact.html">
+                        Distributor Contact
+                    </a>
+                    <div class="footer-social">
+                        <a href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </body>
+
+    <!-- JQuery -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+          }
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1} 
+          x[slideIndex-1].style.display = "block"; 
+          setTimeout(carousel, 2000); 
+        }
+
+        var slideProIndex = 1;
+        showDivs(slideProIndex);
+
+        function plusDivs(n) {
+        showDivs(slideProIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("ProductSlides");
+        if (n > x.length) {slideProIndex = 1}
+        if (n < 1) {slideProIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        x[slideProIndex-1].style.display = "block";  
+        }
+
+
+        $(function() {
+            $('.scroll-down').click (function() {
+              $('html, body').animate({scrollTop: $('#mission').offset().top }, 'slow');
+              return false;
+            });
+          });
+    </script>
 </html>
