@@ -1,6 +1,8 @@
 # Healthychair
 Mid-fidelity web prototype of ADTS1600 project
 
+Live version link:   https://gjdandin.github.io/Healthychair/pages/index
+
 Task information:
 In obligatory assignment no. 1, you created two designs for the website. Choose one of them and provide reasons why this is the best design for your company.
 
@@ -26,11 +28,11 @@ The classic officechair reimagined. Great comfort combined with high tech featur
 “Sitting for a day is not so bad if you’re doing it right!”
  
  
-Stock (Free licensed) images used: 
-https://similarpng.com/a-black-office-chair-on-transparent-background-png/#getdownload
-https://similarpng.com/the-black-office-chair-on-transparent-background-png/#getdownload
-https://similarpng.com/isolated-business-chair-on-transparent-background-png/
-https://similarpng.com/office-chair-3d-isolated-render-on-transparent-background-png/
-https://www.vecteezy.com/vector-art/649115-user-icon-symbol-sign
-https://www.pexels.com/photo/photo-of-man-holding-a-book-927022/
-https://www.pexels.com/photo/funny-australian-shepherd-sitting-on-camp-chair-in-mountainous-terrain-6410609/
+Stock (Free licensed) images used: <br>
+https://similarpng.com/a-black-office-chair-on-transparent-background-png/#getdownload <br>
+https://similarpng.com/the-black-office-chair-on-transparent-background-png/#getdownload <br>
+https://similarpng.com/isolated-business-chair-on-transparent-background-png/ <br>
+https://similarpng.com/office-chair-3d-isolated-render-on-transparent-background-png/ <br>
+https://www.vecteezy.com/vector-art/649115-user-icon-symbol-sign <br>
+https://www.pexels.com/photo/photo-of-man-holding-a-book-927022/ <br>
+https://www.pexels.com/photo/funny-australian-shepherd-sitting-on-camp-chair-in-mountainous-terrain-6410609/ <br>
