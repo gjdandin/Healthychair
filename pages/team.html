@@ -20,7 +20,131 @@
                 padding: 0 2em 0 2em;
             }
 
+            /*Banner css*/
+            .banner {
+                width: 70%; 
+                margin: auto;
+                padding: 10em 0 4.75em 0;
+            }
+            .banner h2 {
+                opacity: 1;
+                border-bottom: solid 2px rgba(7, 7, 7, 0.125);
+                font-size: 2.25em;
+                margin-bottom: 0.8em;
+                padding-bottom: 0.4em;
+            }
+
+            /* User container - right text css*/
+            .user-container1 {
+                display: flex;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                justify-content: space-between;
+                align-content: center;
+                width: 70%;
+                margin: auto;
+                flex-direction: row-reverse;
+            }
+            .user-statement1 {
+                padding: 2em 20px 0px 35px;
+                width:50%;
+            }
+            .user-text1 {
+                padding:1em 0px 1em 0px;
+            }
+            .user-text1 p {
+                font-size: 1.2em;
+            }
+            .user-header1 h1 {
+                font-size: 2em;
+                font-weight: 500;
+            }
+
+            /* User container - left text css*/
+            .user-container2 {
+                display: flex;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                justify-content: space-between;
+                align-content: center;
+                width: 70%;
+                margin: auto;
+            }
+            .user-statement2 {
+                padding: 2em 20px 0px 35px;
+                width:50%;
+            }
+            .user-text2 {
+                padding:1em 0px 1em 0px;
+            }
+            .user-text2 p {
+                font-size: 1.2em;
+            }
+            .user-header2 h1 {
+                font-size: 2em;
+                font-weight: 500;
+            }
+            .user-image1 img {
+                width: 400px;
+                height: 400px;
+            }
             
+            /* Mobile responsive */
+            @media screen and (max-width: 980px) {
+                .user-container1 {
+                    flex-direction: column;
+                    width:100vw;
+                }
+                .user-container2 {
+                    flex-direction: column;
+                    width:100vw;
+                }
+                .user-image1 img {
+                    width:100%;
+                    height:100%;
+                }
+                .user-statement1 {
+                    width:100%;
+                }
+                .user-statement2 {
+                    width:100%;
+                }
+                .banner {
+                    width: 80vw;
+                    margin: auto;
+                    padding: 10em 0 4.75em 0;
+                }
+                main {
+                    padding:0px;
+                }
+            }
+
+            @media screen and (max-width: 1025px) {
+                .user-container1 {
+                    width:80%;
+                }
+                .user-container2 {
+                    width:80%;
+                }
+                .user-image1 img {
+                    width:100%;
+                    height:80%;
+                }
+                .user-statement1 {
+                    width:100%;
+                }
+                .user-statement2 {
+                    width:100%;
+                }
+                .banner {
+                    width: 80vw;
+                    margin: auto;
+                    padding: 10em 0 4.75em 0;
+                }
+                main {
+                    padding:0px;
+                }
+            }
         </style>
 
     </head>
@@ -33,6 +157,9 @@
                 </a>
             </div>
             <div class="nav-links">
+                <a href="index.html">
+                    Home
+                </a>
                 <a href="products.html">
                     Products
                 </a>
@@ -46,6 +173,80 @@
         </nav>       
 
         <main>
+            <div class="banner">
+                <div class="inner">
+                    <div class="banner-text"><span class="icon fa-comment-dots"></span></div>
+                    <h2>Meet The Team</h2>
+                </div>
+            </div>
+
+            <div class="user-container1">
+                <div class="user-statement1">
+                    <div class="user-header1">
+                        <h1>Gilhan Dandin</h1>
+                    </div>
+                    <div class="team-position">
+                        <h5>CEO</h5>
+                    </div>
+                    <div class="user-text1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+                <div class="user-image1">
+                    <img src="../images/user.png">
+                </div>
+            </div>
+
+            <div class="user-container2">
+                <div class="user-statement2">
+                    <div class="user-header2">
+                        <h1>Elvis Co</h1>
+                    </div>
+                    <div class="team-position">
+                        <h5>CFO</h5>
+                    </div>
+                    <div class="user-text2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+                <div class="user-image1">
+                    <img src="../images/user.png" width="400px" height="400px" >
+                </div>
+            </div>
+
+            <div class="user-container1">
+                <div class="user-statement1">
+                    <div class="user-header1">
+                        <h1>Sindre Dyrhovden</h1>
+                    </div>
+                    <div class="team-position">
+                        <h5>COO</h5>
+                    </div>
+                    <div class="user-text1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+                <div class="user-image1">
+                    <img src="../images/user.png" width="400px" height="400px" >
+                </div>
+            </div>
+
+            <div class="user-container2" style="padding-bottom:100px;">
+                <div class="user-statement2">
+                    <div class="user-header2">
+                        <h1>Daniel Christopher Collington</h1>
+                    </div>
+                    <div class="team-position">
+                        <h5>CAO</h5>
+                    </div>
+                    <div class="user-text2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+                <div class="user-image1">
+                    <img src="../images/user.png" width="400px" height="400px" >
+                </div>
+            </div>
 
         </main>
 
@@ -58,6 +259,9 @@
             </div>
             
             <div class="footer-links">
+                <a href="index.html">
+                    Home
+                </a>
                 <a href="products.html">
                     Products
                 </a>
