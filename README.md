@@ -1,6 +1,8 @@
 # Healthychair
 Mid-fidelity web prototype of ADTS1600 project
 
+Live version link:   https://gjdandin.github.io/Healthychair/pages/index
+
 Task information:
 In obligatory assignment no. 1, you created two designs for the website. Choose one of them and provide reasons why this is the best design for your company.
 
