@@ -20,6 +20,9 @@ Pictures, interview notes, sketches, and all artifacts generated through the des
 IMPORTANT:
 Color scheme: a colour scheme of consisting of black (navbar, footer and font), white (page) and yellow (pictures and banners) seems to fit to our product. This colour scheme can be applied to both prototypes and is meant to give an impression of energy/alertness (yellow) mixed with sophistication (black) to the user. 
 
+Slogans:
+The classic officechair reimagined. Great comfort combined with high tech features. - Mission statement
 
+“Sitting for a day is not so bad if you’re doing it right!”
  
  
