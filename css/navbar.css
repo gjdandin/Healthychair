@@ -57,6 +57,7 @@ nav {
         nav {
             display:flex;
             justify-content: center;
+            position:unset;
         }
         nav .nav-logo {
         float: left;

@@ -26,3 +26,11 @@ The classic officechair reimagined. Great comfort combined with high tech featur
 “Sitting for a day is not so bad if you’re doing it right!”
  
  
+Stock (Free licensed) images used: 
+https://similarpng.com/a-black-office-chair-on-transparent-background-png/#getdownload
+https://similarpng.com/the-black-office-chair-on-transparent-background-png/#getdownload
+https://similarpng.com/isolated-business-chair-on-transparent-background-png/
+https://similarpng.com/office-chair-3d-isolated-render-on-transparent-background-png/
+https://www.vecteezy.com/vector-art/649115-user-icon-symbol-sign
+https://www.pexels.com/photo/photo-of-man-holding-a-book-927022/
+https://www.pexels.com/photo/funny-australian-shepherd-sitting-on-camp-chair-in-mountainous-terrain-6410609/

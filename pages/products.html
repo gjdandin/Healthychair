@@ -25,7 +25,6 @@
                 width: 100%;
                 height: 70vh;
                 display: flex;
-                justify-content: space-around;
                 align-content: center;
                 border-bottom: solid 2px rgba(7, 7, 7, 0.125);
             }
@@ -36,6 +35,7 @@
                 justify-content: center;
                 display: flex;
                 flex-direction: column;
+                margin-left: 10vw;
             }
 
             .slogan-text h1 {
@@ -47,72 +47,20 @@
 
             .slogan-text p {
                 width:50%;
+                background-color: #212121;
+                color: #EDEDED;
+                padding:5px;
             }
             
-            .filler {
-                width:60%;
-            }
-
-            /* Banner Responsive css */
-            @media screen and (max-width:767px) {
-                .slogan-text {
-                    align-content: center;
-                    justify-content: center;
-                    display: flex;
-                    flex-direction: column;
-                    padding: 20px;
-                }
-                .slogan-text h1{
-                    background-color: #212121;
-                    color: #EDEDED;
-                    width: fit-content;
-                    font-size: xx-large;
-                }
-                .filler {
-                    width:0px;
-                }
-                .slogan-text p {
-                    width:auto;
-                }
-            }   
-
-            @media screen and (min-width:768px) and (max-width:1023px){
-                .slogan-text h1{
-                    background-color: #212121;
-                    color: #EDEDED;
-                    width: fit-content;
-                    font-size: xx-large;
-                }
-                .filler {width:60%;}
-                .slogan-text p {
-                    width:auto;
-                }
-            }
-
-            @media screen and (min-width:1024px) and (max-width:1024px) {
-                .filler {width:60%;}
-                .slogan-text p {
-                    width:auto;
-                }
-            }
-
             /* End banner css */
+
 
             /* Marketing banner css */
             .marketing-banner {
                 padding: 5% 40% 5% 5%;
             }
-
-            /* Responsive css */
-            @media screen and (max-width:768px) {
-                .marketing-banner {
-                    padding: 10% 20% 10% 10%;
-                }
-                .marketing-banner h1 {
-                    font-size: 1.5em;
-                }
-            }
             /* End marketing banner css */
+
 
             /* Product css general */
                 .product-div {
@@ -230,6 +178,7 @@
                 }
 
             /* End Product container lower css */
+            
 
             /* Product css responsive */
             @media screen and (max-width:767px) {
@@ -247,6 +196,55 @@
                 }
             }
 
+            
+            /* Banner Responsive css */
+            @media screen and (max-width:767px) {
+                .slogan-text {
+                    align-content: center;
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    margin-left:0px;
+                }
+                .slogan-text h1{
+                    background-color: #212121;
+                    color: #EDEDED;
+                    width: fit-content;
+                    font-size: xx-large;
+                }
+                .slogan-text p {
+                    width:auto;
+                }
+            }   
+
+            @media screen and (min-width:768px) and (max-width:1023px){
+                .slogan-text h1{
+                    background-color: #212121;
+                    color: #EDEDED;
+                    width: fit-content;
+                    font-size: xx-large;
+                }
+                .slogan-text p {
+                    width:50%;
+                }
+            }
+
+            @media screen and (min-width:1024px) and (max-width:1024px) {
+                .slogan-text p {
+                    width:50%;
+                }
+            }
+
+            /* Marketing banner responsive */
+            @media screen and (max-width:768px) {
+                .marketing-banner {
+                    padding: 10% 20% 10% 10%;
+                }
+                .marketing-banner h1 {
+                    font-size: 1.5em;
+                }
+            }
 
             
             
@@ -279,8 +277,6 @@
 
         <main>
             <div class="slogan-image">
-                <div class="filler">
-                </div>
                 <div class="slogan-text">
                     <h1>Sitting for a day is not so bad,</h1>
                     <h1>if you’re doing it right!</h1>
