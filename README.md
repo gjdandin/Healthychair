@@ -1,3 +1,12 @@
+Missing:
+- CV for Daniel and Elvis
+- Better product images(digitized with different colors per product)
+- Remove all placeholder images and text
+- Profile pictures for Team page
+- Undertext for product slideshow.
+- Working color buttons?
+
+
 # Healthychair
 Mid-fidelity web prototype of ADTS1600 project
 
