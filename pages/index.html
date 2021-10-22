@@ -37,12 +37,13 @@
 
             .slogan-image {
                 background-image: url("../images/index-1920.jpg");
-                background-repeat: space;
+                background-repeat: no-repeat;
                 width: 100%;
                 height: 80vh;
                 display: flex;
                 justify-content: space-around;
                 align-content: center;
+                background-size:cover;
             }
             
             .slogan-text {
@@ -241,6 +242,33 @@
                 }
             }
 
+            /* (C) CAPTION */
+            .hovercap {
+            /* (C1) DIMENSIONS */
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            /* (C2) BOTTOM */
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            /* (C3) COLORS */
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            }
+
+            /* (D) SHOW/HIDE */
+            .hovercap {
+            visibility: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            }
+            .w3-display-container:hover .hovercap {
+            visibility: visible;
+            opacity: 1;
+            text-align: center;
+            }
+
         </style>
 
     </head>
@@ -282,11 +310,13 @@
                 <div class="mission-container">
                     <div class="mission-statement" id="mission">
                         <div class="mission-header">
-                            <h1>Great comfort combined with high tech features</h1>
+                            <h1>Great comfort combined with high tech features </h1>
                         </div>
                         <div class="mission-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Our mission is to alleviate the health problems associated with the office environment by creating better, healthier sitting habits and posture. An easy to install seat-attachment, HealthyChair is an unobstrusive device with an intuitive inteface and a pillow sensor that simply warns the user of bad posture and thereby encourages better sitting habits. 
+                            </p>
+                            <p>HealthyChair also monitors your seat posture statistics which can be viewed directly on our website. You can see for yourself the improvements in your sitting habits over time.</p>
+                            <p>With HealthyChair, you can say goodbye to stiffness and muscle pain caused by long hours at the office and enjoy better health and flexibility in your everyday.</p>
                         </div>
                         <div class="mission-btn">
                             <a href="products.html">
@@ -311,7 +341,7 @@
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </p>
-                            <p>"Maximum Comfort. Easy to use."</p>
+                            <p>"Easy to use. Fixed my bad posture in a matter of days."</p>
                             <p>- John Doe</p>
                         </div>
                         <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
@@ -321,7 +351,7 @@
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </p>
-                            <p>"So comfortable you can't believe it."</p>
+                            <p>"Sitting for 8 hours at the office is now a breeze."</p>
                             <p>- Jane Doe</p>
                         </div>
                         <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
@@ -331,7 +361,7 @@
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                             </p>
-                            <p>"Never going back to regular chairs."</p>
+                            <p>"I don't slouch anymore and feel more confident."</p>
                             <p>- Hans Hansen</p>
                         </div>
                         <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
@@ -349,11 +379,10 @@
                 
                 <div class="slideshow-container">
                     <div class="w3-content w3-display-container" style="display: flex;justify-content: center;">
-                        <img class="ProductSlides" src="../images/skisse.jpg" width="560px"; height="700px";>
-                        <img class="ProductSlides" src="../images/sensor.jpg" width="581px"; height="581px";>
-                        <img class="ProductSlides" src="../images/skisse2.jpg" width="560px"; height="700px";>
-                        <img class="ProductSlides" src="../images/chair4.png" width="581px"; height="581px";>
-                        <img class="ProductSlides" src="../images/chair5.png" width="581px"; height="581px";>
+                        <img class="ProductSlides" src="../images/skisse.jpg" alt="Low fidelity prototype" width="560px"; height="700px";>
+                        <div class="hovercap">(WIP) Product slides of prototypes and technical components</div>
+                        <img class="ProductSlides" src="../images/sensor.jpg" alt="Arduino components of the device" width="581px"; height="581px";>
+                        <img class="ProductSlides" src="../images/skisse2.jpg" alt="Prototype sketch" width="560px"; height="700px";>
 
                         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>

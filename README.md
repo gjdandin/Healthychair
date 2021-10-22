@@ -1,35 +1,17 @@
 Missing:
 - CV for Daniel and Elvis
 - Better product images(digitized with different colors per product)
-- Remove all placeholder images and text
+- Remove all placeholder images and text(only products and contacts left)
 - Profile pictures for Team page
-- Undertext for product slideshow.
 - Working color buttons?
 
 
 # Healthychair
-Mid-fidelity web prototype of ADTS1600 project
+High-fidelity web prototype of ADTS1600 project
 
 Live version link:   https://gjdandin.github.io/Healthychair/pages/index
 
-Task information:
-In obligatory assignment no. 1, you created two designs for the website. Choose one of them and provide reasons why this is the best design for your company.
-
-Review your chosen design in the light of new information (feedback, other's work, etc.). Use it to develop a mid-fidelity (interactive) version of your website (it should be clickable). Incorporate concepts of graphical design, intuitive interface design and navigation when adequate. You are free to choose any tool of your preference (FX, InVision, Sketch, HTML/CSS, etc.).
-
-Create your own version of the Usability Test Script to test some specific aspects of your website (points you believe to be important). Apply the usability test script to guide the test on 5 different users (friends, parents, etc.). You must document (take notes, record, etc.) the usability test, and use the information to update your mid-fidelity prototype.
-
-Please, include:
-
-Reason for choosing one of the two low fidelity prototypes to develop further; 
-Information about the ideation process; 
-Information about the learning process (if you had to learn a new tool and why); 
-The documentation of the interviews; 
-Justification of your choices in the light of the theory (Book, Video Classes, Classes, or other material), and the mission and goals of your company and the needs of your users.
-Pictures, interview notes, sketches, and all artifacts generated through the design process (including the unsuccessful ones) must somehow fit into the narrative of the report. 
-
-IMPORTANT:
-Color scheme: a colour scheme of consisting of black (navbar, footer and font), white (page) and yellow (pictures and banners) seems to fit to our product. This colour scheme can be applied to both prototypes and is meant to give an impression of energy/alertness (yellow) mixed with sophistication (black) to the user. 
+5.2. Rewrite design process of your website.In this section you should, write the reviewed version of your description of your website from Oblig 2. Extend it to include the design process of the high-fidelity prototype of your website (including all the versions until the final one).Pictures, interview notes, sketches and all artifacts generated through the design process (including the unsuccessful ones) must somehow fit into the narrative of the report. Figures must be properly referred to in the text. Some of these images will be close to the text, others in the appendix. The link to a testable website prototype should be somewhere in the rapport.Add introductions and discussions.
 
 Slogans:
 The classic officechair reimagined. Great comfort combined with high tech features. - Mission statement
