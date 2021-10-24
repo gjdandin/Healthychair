@@ -99,16 +99,19 @@
                 .user-container1 {
                     flex-direction: column;
                     width:100vw;
+                    padding-top:0;
                 }
                 .user-container2 {
                     flex-direction: column;
                     width:100vw;
                 }
-                .user-image1 img {
-                    height:100%;
+                .user-image1 {
+                    display: flex;
+                    justify-content: center;
                 }
                 .user-statement1 {
                     width:100%;
+                    padding:2em;
                 }
                 .user-text1 p {
                     font-size: 1.2em;
@@ -128,6 +131,12 @@
                     padding:0px;
                 }
             }
+            
+            @media screen and (min-width:768px) and (max-width: 980px) {
+                .banner {
+                    width: 90vw;
+                }
+            }
 
             @media screen and (min-width:980px) and (max-width: 1025px) {
                 .user-container1 {
@@ -135,9 +144,6 @@
                 }
                 .user-container2 {
                     width:80%;
-                }
-                .user-image1 img {
-                    height:80%;
                 }
                 .user-statement1 {
                     width:100%;
