@@ -1,9 +1,4 @@
 Missing:
-- Create a mid-fidelity repo to show differences.
-- CV for Daniel and Elvis
-- Better product images(digitized with different colors per product)
-- Remove all placeholder images and text(only products and contacts left)
-- Profile pictures for Team page
 - Working color buttons?
 
 
